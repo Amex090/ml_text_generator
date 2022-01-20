@@ -6,7 +6,7 @@ class Item(BaseModel):
     text: str
 
 app = FastAPI()
-classifier = pipeline("text2text-generation")
+classifier = pipeline("text-generation")
 
 @app.get("/")
 def root():
