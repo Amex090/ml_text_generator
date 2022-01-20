@@ -1,4 +1,4 @@
-tensorflow
+torch==1.10.1+cpu
 transformers
 fastapi
 uvicorn
